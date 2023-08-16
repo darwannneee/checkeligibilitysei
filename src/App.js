@@ -50,12 +50,13 @@ function App() {
           <p>Eligibility: {eligibility ? 'Eligible' : <img src='https://cdn.discordapp.com/attachments/839452055357489176/1141253801337163816/ExEQGZCVIAIDjtU.png' />} </p>
           <p>Reason: {reason}</p>
           <p>Amount: {amount} SEI</p>
-        <h1>API CLOSED</h1>
         </div>
       )}
 
     <p>Created By: <a href='https://twitter.com/StressCapitals'>Stress Capital</a></p>
       <img src='https://cdn.discordapp.com/attachments/839452055357489176/1141252974623084604/fqc-vkue_400x400.png' ></img>
+
+      <h1>API CLOSED</h1>
     </div>
   );
 }
