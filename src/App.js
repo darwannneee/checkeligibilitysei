@@ -50,7 +50,7 @@ function App() {
           <p>Eligibility: {eligibility ? 'Eligible' : <img src='https://cdn.discordapp.com/attachments/839452055357489176/1141253801337163816/ExEQGZCVIAIDjtU.png' />} </p>
           <p>Reason: {reason}</p>
           <p>Amount: {amount} SEI</p>
-
+        <h1>API CLOSED</h1>
         </div>
       )}
 
