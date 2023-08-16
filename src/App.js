@@ -6,7 +6,6 @@ function App() {
   const [eligibility, setEligibility] = useState(null);
   const [reason, setReason] = useState("");
   const [amount, setAmount] = useState("");
-  const [amountFinal, setAmountFinal] = useState("")
   const apiUrl = 'https://incentivized-testnet.seinetwork.io/check-eligibility';
 
   const handleAddressChange = (event) => {
@@ -34,7 +33,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Check Eligibility SEI</h1>
+      <h1>Check Eligibility SEIw</h1>
       <p>Enter your address below to check eligibility:</p>
       <input
         type="text"
@@ -51,8 +50,12 @@ function App() {
           <p>Eligibility: {eligibility ? 'Eligible' : 'Not Eligible'}</p>
           <p>Reason: {reason}</p>
           <p>Amount: {amount} SEI</p>
+
         </div>
       )}
+
+    <p>Created By: @darwannneee</p>
+      <img src='https://cdn.discordapp.com/attachments/839452055357489176/1141252974623084604/fqc-vkue_400x400.png' ></img>
     </div>
   );
 }
