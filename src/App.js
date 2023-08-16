@@ -54,7 +54,8 @@ function App() {
         </div>
       )}
 
-
+    <p>Created By: <a href='https://twitter.com/StressCapitalsi'>Stress Capital</a></p>
+      <img src='https://cdn.discordapp.com/attachments/839452055357489176/1141252974623084604/fqc-vkue_400x400.png' ></img>
     </div>
   );
 }
