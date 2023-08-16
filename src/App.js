@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Check Eligibility SEIw</h1>
+      <h1>Check Eligibility SEI</h1>
       <p>Enter your address below to check eligibility:</p>
       <input
         type="text"
