@@ -47,15 +47,14 @@ function App() {
         <div className="result">
           <h2>Eligibility Result</h2>
           <p>Address: {address}</p>
-          <p>Eligibility: {eligibility ? 'Eligible' : 'Not Eligible'}</p>
+          <p>Eligibility: {eligibility ? 'Eligible' : <img src='https://cdn.discordapp.com/attachments/839452055357489176/1141253801337163816/ExEQGZCVIAIDjtU.png' />} </p>
           <p>Reason: {reason}</p>
           <p>Amount: {amount} SEI</p>
 
         </div>
       )}
 
-    <p>Created By: @darwannneee</p>
-      <img src='https://cdn.discordapp.com/attachments/839452055357489176/1141252974623084604/fqc-vkue_400x400.png' ></img>
+
     </div>
   );
 }
