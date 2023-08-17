@@ -47,7 +47,7 @@ function App() {
         <div className="result">
           <h2>Eligibility Result</h2>
           <p>Address: {address}</p>
-          <p>Eligibility: {eligibility ? 'Eligible' : <img src='https://cdn.discordapp.com/attachments/839452055357489176/1141253801337163816/ExEQGZCVIAIDjtU.png' />} </p>
+          <p>Eligibility: {eligibility ? 'Eligible' : 'Not Eligible' } </p>
           <p>Reason: {reason}</p>
           <p>Amount: {amount} SEI</p>
         </div>
@@ -56,7 +56,7 @@ function App() {
     <p>Created By: <a href='https://twitter.com/StressCapitals'>Stress Capital</a></p>
       <img src='https://cdn.discordapp.com/attachments/839452055357489176/1141252974623084604/fqc-vkue_400x400.png' ></img>
 
-      <h1>API CLOSED, SO WEBSITE DOENS'T WORK</h1>
+      <h1>OPEN</h1>
     </div>
   );
 }
