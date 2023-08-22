@@ -4,4 +4,4 @@ This project was created using API from official sei https://incentivized-testne
 
 You can access this website https://checksei.vercel.app
 
-you only input your address and the you can see your rewards Sei 
+you only input your address and then you can see your reward Sei 
